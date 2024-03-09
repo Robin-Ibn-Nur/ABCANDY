@@ -11,7 +11,8 @@ const menu = [
         <li className="group flex  cursor-pointer flex-col">
             Blog<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
         </li>
-        <button className="  w-32 h-10 rounded bg-[#5742AC] text-white relative overflow-hidden group z-10"><span className="absolute bg-white rotate-12 -inset-8 group-hover:duration-300 duration-700 scale-x-0 group-hover:scale-x-100 origin-left transform transition-transform"></span><span className="absolute bg-sky-700 rotate-12 -inset-8 group-hover:duration-700 duration-500 scale-x-0 group-hover:scale-x-100 origin-left transform transition-transform"></span><span className="absolute bg-sky-900 rotate-12 -inset-8 group-hover:duration-500 duration-300 scale-x-0 group-hover:scale-x-50 origin-left transform transition-transform"></span><span className="absolute opacity-0 group-hover:opacity-100 duration-100 group-hover:duration-700 ease-out text-center z-10 text-white">Us</span>Contact</button>
+        <button className="border-2 text-xl bg-[#e1dddd] text-[#5742AC] w-32 h-10 border-[#5742AC] hover:before:bg-[#5742AC] before:w-full before:h-0 hover:before:h-full hover:before:-z-10 hover:before:absolute before:absolute relative before:top-0 hover:before:left-0 before:duration-500 hover:text-white transform origin-top before:block">Contact Us</button>
+
     </>
 ]
 
