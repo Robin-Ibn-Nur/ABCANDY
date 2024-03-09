@@ -33,7 +33,7 @@ const Header = () => {
         };
     }, []);
     return (
-        <nav className="flex items-center justify-between lg:justify-around bg-white px-4 py-2 text-black mb-24 shadow-lg w-screen fixed">
+        <nav className="flex items-center justify-between lg:justify-around bg-white px-4 py-2 text-black shadow-lg w-screen ">
             <ul className="hidden items-center justify-between gap-10 md:flex  text-body_text_color">
                 <Menu />
             </ul>
