@@ -18,7 +18,6 @@ const Carousel = () => {
                 {/* sliders */}
                 {sliderImages.map((slide, index) => (
                     <img key={index} src={slide} alt={`Slider - ${index + 1}`} className="min-w-full h-72 bg-black/20 sm:h-96 md:h-[670px] object-cover" />))}
-                {/* <img key={slide} src={slide} className="min-w-full h-72 bg-black/20 sm:h-96 md:h-[670px] object-cover" alt={`Slider - ${inx + 1}`} />  */}
             </div>
         </div>
     );

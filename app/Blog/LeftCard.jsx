@@ -7,8 +7,6 @@ const LeftCard = () => {
         <div className="w-[100%] lg:w-[50%] p-1 shadow-md ">
             <div className="space-y-4">
                 <div className="space-y-2 ">
-
-                    {/* <img src="https://source.unsplash.com/random/480x360/?4" alt="" className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" /> */}
                     <Carousel />
                     <div className="flex items-center gap-5 ">
                         <h5 className='text-[#2C2347]'>DESIGN & CREATIVE</h5>

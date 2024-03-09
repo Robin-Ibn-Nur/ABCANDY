@@ -1,5 +1,6 @@
 import Blog from "./Blog/Blog";
 import { Carousel } from "./Carousel/Carousel";
+import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 
 const page = () => {
@@ -12,6 +13,7 @@ const page = () => {
       <div className="container mx-auto">
         <Blog />
       </div>
+      <Footer />
     </>
   );
 };
