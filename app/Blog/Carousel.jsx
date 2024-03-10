@@ -1,16 +1,10 @@
 "use client"
-import LeftBtn from "./Button/LeftBtn";
-import RightBtn from "./Button/RightBtn";
 import Dots from "./Dots";
 import useCarousel from "../component/useCarousel";
 const Carousel = () => {
-    const { currentSlider, setCurrentSlider, sliderImages, prevSlider, nextSlider } = useCarousel();
+    const { currentSlider, setCurrentSlider, sliderImages } = useCarousel();
     return (
         <div className="h-72 w-full rounded-md relative overflow-hidden">
-            {/* arrow left */}
-            {/* <LeftBtn prevSlider={prevSlider} /> */}
-            {/* arrow right */}
-            {/* <RightBtn nextSlider={nextSlider} /> */}
             {/* dots */}
             <Dots sliderImages={sliderImages} currentSlider={currentSlider} setCurrentSlider={setCurrentSlider} />
             {/* Carousel container */}
