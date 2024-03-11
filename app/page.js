@@ -13,7 +13,7 @@ const page = () => {
       <div className="container mx-auto">
         <Blog />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

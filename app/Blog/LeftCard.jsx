@@ -17,7 +17,7 @@ const LeftCard = () => {
                     <a rel="noopener noreferrer" href="#" className="block">
                         <h3 className="text-xl font-semibold text-[#2C2347]">Facere ipsa nulla corrupti praesentium pariatur architecto</h3>
                     </a>
-                    <p className=" dark:text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi.</p>
+                    <p className="dark:text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi.</p>
                     <div className="flex items-center gap-2">
                         <span className='text-xs'>by</span><span>Jon Doe</span>
                     </div>
