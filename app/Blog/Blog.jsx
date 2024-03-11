@@ -19,7 +19,7 @@ const Blog = () => {
                 </div>
 
             </div>
-            <div className='container p-5 lg:p-0 md:mx-5 mt-5  flex flex-col lg:flex-row justify-around gap-5 w-[100%]'>
+            <div className='mt-5  flex flex-col lg:flex-row justify-between gap-5 w-[100%]'>
                 <LeftCard />
                 <RightCard />
             </div>

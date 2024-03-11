@@ -2,7 +2,7 @@ import React from 'react';
 
 const RightCard = () => {
     return (
-        <div className="w-[100%] lg:w-[50%]  shadow-md ">
+        <div className="w-[100%] lg:w-[50%] p-5 lg:p-0 shadow-md ">
             <div className="space-y-4">
                 <div className="space-y-2 ">
                     <img src="https://source.unsplash.com/random/480x360/?4" alt="" className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />

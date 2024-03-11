@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 const LeftCard = () => {
 
     return (
-        <div className="w-[100%] lg:w-[50%] shadow-md ">
+        <div className="w-[100%] lg:w-[50%] p-5 lg:p-0 shadow-md ">
             <div className="space-y-4">
                 <div className="space-y-2 ">
                     <Carousel />
