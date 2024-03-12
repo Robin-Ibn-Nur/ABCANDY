@@ -19,7 +19,7 @@ const page = () => {
         <Development />
         <Courses />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

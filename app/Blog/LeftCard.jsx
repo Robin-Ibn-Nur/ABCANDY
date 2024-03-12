@@ -8,12 +8,12 @@ const LeftCard = () => {
             <div className="space-y-4">
                 <div className="space-y-2 ">
                     <Carousel />
-                    <div className="flex items-center gap-5 ">
+                    <div className="flex items-center gap-5 p-3">
                         <h5 className='text-[#2C2347]'>DESIGN & CREATIVE</h5>
                         <span className='text-xs'>10 June 2024</span>
                     </div>
                 </div>
-                <div className="space-y-2">
+                <div className="space-y-2 p-3">
                     <a rel="noopener noreferrer" href="#" className="block">
                         <h3 className="text-xl font-semibold text-[#2C2347]">Facere ipsa nulla corrupti praesentium pariatur architecto</h3>
                     </a>

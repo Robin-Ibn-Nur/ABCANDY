@@ -1,11 +1,12 @@
 "use client"
 import { useState } from 'react';
 
-export const Modal = () => {
+export const Modal = ({ children }) => {
     const [openModal, setOpenModal] = useState(false);
     return (
         <div className="w-72 mx-auto flex items-center justify-center">
-            <button onClick={() => setOpenModal(true)} className="border-2 text-xl bg-[#e1dddd] text-[#5742AC] w-32 h-10 border-[#5742AC] hover:before:bg-[#5742AC] before:w-full before:h-0 hover:before:h-full hover:before:-z-10 hover:before:absolute before:absolute relative before:top-0 hover:before:left-0 before:duration-500 hover:text-white transform origin-top before:block">Contact Us</button>
+            <button onClick={() => setOpenModal(true)} className="border-2 text-xl bg-[#e1dddd] text-[#5742AC] w-32 h-10 border-[#5742AC] hover:before:bg-[#5742AC] before:w-full before:h-0 hover:before:h-full hover:before:-z-10 hover:before:absolute before:absolute relative before:top-0 hover:before:left-0 before:duration-500 hover:text-white transform origin-top before:block">{children}</button>
+
             <div onClick={() => setOpenModal(false)} className={`fixed flex justify-center items-center z-[100] ${openModal ? 'visible opacity-1' : 'invisible opacity-0'} inset-0 w-full h-full backdrop-blur-sm bg-black/20 duration-100`}>
                 <div onClick={(e_) => e_.stopPropagation()} className={`absolute w-full lg:w-[500px] bg-white drop-shadow-2xl rounded-lg ${openModal ? 'opacity-1 duration-300 translate-y-0' : '-translate-y-20 opacity-0 duration-150'}`}>
                     <form className="p-12">
