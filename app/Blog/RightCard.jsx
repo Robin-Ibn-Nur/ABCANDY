@@ -1,4 +1,3 @@
-import React from 'react';
 import WatchNow from '../component/WatchNow';
 
 const RightCard = () => {
@@ -9,7 +8,6 @@ const RightCard = () => {
                     <img src="https://source.unsplash.com/random/480x360/?4" alt="" className="block object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
                     <div className='absolute bottom-20 right-6 text-white flex items-center gap-5'>
                         <p>Watch Now</p>
-                        {/* <img className=' w-6 h-6' src="/play.png" alt="" /> */}
                         <img className='outline outline-white rounded-lg bg-white w-5 h-5' src="/playButton.png" alt="" />
                     </div>
                     <div className="flex items-center gap-5 p-3">
