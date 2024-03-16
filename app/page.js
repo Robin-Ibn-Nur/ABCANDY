@@ -7,8 +7,6 @@ import Header from "./Header/Header";
 import Team from "./Team/Team";
 
 const page = () => {
-
-
   return (
     <>
       <Header />
