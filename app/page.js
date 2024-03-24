@@ -10,7 +10,7 @@ const page = () => {
   return (
     <>
       <Header />
-      {/* <Carousel /> */}
+      <Carousel />
       <div className="container mx-auto">
         <Blog />
         <Team />
